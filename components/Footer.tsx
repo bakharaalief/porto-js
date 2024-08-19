@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="lg:w-7/12 lg:mx-auto">
       <div className="w-full h-[0.12rem] bg-gray-300" />
       <h1 className="text-lg sm:text-2xl font-bold text-black text-center mt-4">
-        Let's Connect
+        Let&apos;s Connect
       </h1>
       <p className="text-sm sm:text-lg font-light text-black text-center mt-2">
         Feel free to reach out for collaborations or just a friendly hello 

@@ -23,15 +23,15 @@ const Section = () => {
     <div className="py-10 lg:py-20 lg:w-7/12 lg:mx-auto">
       {/* title */}
       <h1 className="text-3xl md:text-4xl lg:text-5xl text-center text-customPink font-bold">
-        Hi! I'm Alief
+        Hi! I&apos;m Alief
       </h1>
 
       {/* desc */}
       <p className="w-9/12 md:w-9/12 lg:w-10/12 xl:7/12 text-sm md:text-lg lg:text-xl text-center font-light text-black my-9 lg:my-16 mx-10 mx-auto">
         A Front-End Engineer who loves coding, diving into books, capturing
-        moments through photography, and spending time with cats. I’m passionate
-        about crafting seamless user experiences and constantly learning new
-        things in the tech world
+        moments through photography, and spending time with cats. I&apos;m
+        passionate about crafting seamless user experiences and constantly
+        learning new things in the tech world
       </p>
 
       <div className="embla overflow-hidden cursor-pointer" ref={emblaRef}>
