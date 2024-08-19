@@ -1,5 +1,11 @@
-import Navbar from "@/components/Navbar";
+import NavbarWrapper from "@/components/all/NavbarWrapper";
 
-export default function Home() {
-  return <div className="w-7/12 mx-auto min-h-screen">{/* <Navbar /> */}</div>;
-}
+const page = () => {
+  return (
+    <NavbarWrapper>
+      <p>aaaa</p>
+    </NavbarWrapper>
+  );
+};
+
+export default page;

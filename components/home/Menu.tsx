@@ -1,6 +1,6 @@
 import React from "react";
-import NavbarMobile from "../NavbarMobile";
-import NavbarLink from "../NavbarLink";
+import NavbarMobile from "../all/NavbarMobile";
+import NavbarLink from "../all/NavbarLink";
 
 interface Props {
   isHidden: boolean;

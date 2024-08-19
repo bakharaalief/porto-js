@@ -1,30 +1,17 @@
 "use client";
 
-import Footer from "@/components/Footer";
-import Menu from "@/components/home/Menu";
+import Footer from "@/components/all/Footer";
 import Section from "@/components/home/Section";
 import Works from "@/components/home/Works";
-import Navbar from "@/components/Navbar";
-import { useState } from "react";
+import NavbarWrapper from "@/components/all/NavbarWrapper";
 
-export default function Home() {
-  const [isHidden, setHidden] = useState<boolean>(true);
-
-  const onMenuClick = () => {
-    setHidden(!isHidden);
-  };
-
-  const screen = isHidden ? "min-h-screen" : "h-screen overflow-hidden";
-
+const Home = () => {
   return (
-    <div className="relative">
-      <Menu isHidden={isHidden} onClick={onMenuClick} />
-      <div className={`${screen}`}>
-        <Navbar isClose={!isHidden} onClick={onMenuClick} />
-        <Section />
-        <Works />
-        <Footer />
-      </div>
-    </div>
+    <NavbarWrapper>
+      <Section />
+      <Works />
+    </NavbarWrapper>
   );
-}
+};
+
+export default Home;
